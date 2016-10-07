@@ -7,7 +7,6 @@
     "example": "webpack -p --config  webpack.example.config.js --colors",
     "build": "babel src/timeInput.jsx -o index.js",
     "prepublish": "npm run build",
-    "postinstall": "npm run build"
   },
   "repository": {
     "type": "git",
